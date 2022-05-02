@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <div id="bgOverlay"></div>
+    <div class="pokedex">
+        <div class="left">
+            <div class="left-main">
+                <div class="left-top-wrapper">
+                    <div class="left-top">
+                        <div class="blueBtn btn huge" id="blueBtn"></div>
+                        <div class="redBtn btn medium"></div>
+                        <div class="jauneBtn btn medium"></div>
+                        <div class="vertBtn btn medium"></div>
+                    </div>
+
+                </div>
+
+                <div class="left-screen">
+                    <div class="screen-border-grey">
+                        <div class="screen-top-btn">
+                            <div class="redBtn btn small"></div>
+                            <div class="redBtn btn small"></div>
+                        </div>
+                        <!-- Sprite do pokemon -->
+                        <div class="screen-black">
+                            <img id="imagemPokemon" src="" alt="">
+                        </div>
+                        <div class="screen-bottom-btn">
+                            <div class="redBtn btn medium"></div>
+                            <div class="burger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="left-commands">
+                    <div class="noirBtn btn large"></div>
+                    <div class="commands-central">
+                        <div class="longBtn redBtn"></div>
+                        <div class="longBtn blueBtn"></div>
+                        <!-- Onde insere o nome do pokemon -->
+                        <div class="greenScreen medlargeScreen">
+                            <input class="title title-4" type="text" id="name">
+                        </div>
+                    </div>
+                    <div class="croix"></div>
+                </div>
+            </div>
+
+            <div class="central-cylinder">
+                <div class="cynlinder-central-block"></div>
+            </div>
+        </div>
+
+        <!-- Partie droite :  -->
+        <div class="right-wrapper">
+            <div class="right">
+                <div class="blackScreen largeScreen">
+                    <p id="index"></p>
+                    <div id="typeBubbleDiv">
+                        <div id="bubble1" class="typeBubble"></div>
+                        <div id="bubble2" class="typeBubble"></div>
+                    </div>
+                    <p id="type"></p>
+                    <p id="height"></p>
+                    <p id="weight"></p>
+                    <p id="region"></p>
+                </div>
+                <div class="gridBtn blueGrid">
+                    <div class="gridCell"></div>
+                    <div class="gridCell"></div>
+                    <div class="gridCell"></div>
+                    <div class="gridCell"></div>
+                    <div class="gridCell"></div>
+                    <div class="gridCell"></div>
+                    <div class="gridCell"></div>
+                    <div class="gridCell"></div>
+                    <div class="gridCell"></div>
+                    <div class="gridCell"></div>
+                </div>
+                <div class="longBtnRight">
+                    <div class="longBtn noirBtn"></div>
+                    <div class="longBtn noirBtn"></div>
+                </div>
+                <!-- <div class="gridBtn whiteGrid">
+                    <input id="inputIndex" type="number" min="1" max="151" placeholder="#___">
+                    <label for="inputIndex" id="labelInputIndex">ID between 1 and 151</label>
+                </div> -->
+                <div class="jauneBtn btn large" id="btnJaune"></div>
+                <div class="noirScreen mediumScreen" id="prev">&#11207;</div>
+                <div class="noirScreen mediumScreen" id="next">&#11208;</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
